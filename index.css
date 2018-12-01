@@ -4,7 +4,7 @@ body {
 
 #progress-bar {
   position: relative;
-  width: 600px;
+  max-width: 720px;
   height: 12px;
   background-color: #eee;
   margin-left: auto;
