@@ -1,2 +1,2 @@
 # animated-step-progress-bar
-DEMO: https://github.com/eferhatg/animated-step-progress-bar
+DEMO: http://eferhatg.com/animated-step-progress-bar/
