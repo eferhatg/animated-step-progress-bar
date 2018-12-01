@@ -66,7 +66,7 @@ function animateProgress(n) {
   $(".bar").attr("style", "");
   $(".circle").attr("style", "");
   $(".circle:nth-of-type(1)").addClass("done");
-  $("#result-icon").attr("class", "fa fa-question-circle");
+  $("#result-icon").attr("class", "ml-19 fa fa-question");
   $("#result-text").html("Son Durum");
   stepper(delivery, 0);
 }
@@ -85,7 +85,7 @@ function finishStepper(delivery) {
     $(".done").css("background-color", delivery.color);
     $(".done").css("color", delivery.color);
     if (delivery.lastStep > 2) {
-      $("#result-icon").attr("class", "fa " + delivery.faIcon);
+      $("#result-icon").attr("class", "fa ml-17 " + delivery.faIcon);
       $("#result-text").html(delivery.text);
     }
   }, 600);
